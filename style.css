@@ -1,0 +1,30 @@
+
+
+body {
+    background: #4d85d8;
+}
+
+.clock {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display:flex;
+    font-family: sans-serif;
+}
+
+.heading {
+    color: #090909;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.time {
+    background: #4d85d8;
+    color: #090909;
+    font-size: 100px;
+    width: 150px;
+    margin: 0 10px;
+    text-align: center;
+}
